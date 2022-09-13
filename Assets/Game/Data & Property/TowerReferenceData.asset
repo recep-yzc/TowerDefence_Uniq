@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a55a849162e8949a374868bd1a7a45, type: 3}
+  m_Name: TowerReferenceData
+  m_EditorClassIdentifier: 
+  CostPerCard: 50
+  TowerSlotCardActorPrefab: {fileID: 5613625132283140076, guid: d3c556ea56c5c4144ba4b4532c2d73d1,
+    type: 3}
+  TowerCharacterCards:
+  - CharacterLevel: 1
+    CharacterCardSprite: {fileID: 1437103240, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 2
+    CharacterCardSprite: {fileID: 531055788, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 3
+    CharacterCardSprite: {fileID: 1052595297, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 4
+    CharacterCardSprite: {fileID: 263657529, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 5
+    CharacterCardSprite: {fileID: 1704055092, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 6
+    CharacterCardSprite: {fileID: 1610530039, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 7
+    CharacterCardSprite: {fileID: -1275767204, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  - CharacterLevel: 8
+    CharacterCardSprite: {fileID: 758802482, guid: 411c08922f0f3b94ab32f5d0662fb2bd,
+      type: 3}
+  TowerCharacterModels:
+  - CharacterLevel: 1
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 99db81eabc2c5434ea2f4524646185fd,
+      type: 3}
+  - CharacterLevel: 2
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: f9191723b15ccf34bb0922e8dd8e3e30,
+      type: 3}
+  - CharacterLevel: 3
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 21bfc34070a7f3540980ce8a98b089b5,
+      type: 3}
+  - CharacterLevel: 4
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: ae195e50f0e428a4cbac362a8157a2a4,
+      type: 3}
+  - CharacterLevel: 5
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 596508b78ae2d4643aad1c5f7bcc21e7,
+      type: 3}
+  - CharacterLevel: 6
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 0047fcf32934e644ab95e964edc1d675,
+      type: 3}
+  - CharacterLevel: 7
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 80dd92aedb18fa042b68a1f93db441dc,
+      type: 3}
+  - CharacterLevel: 8
+    TowerCharacterModelActor: {fileID: 5441911677513949063, guid: 35e354e358d75804a995a2e2032d6fe6,
+      type: 3}
