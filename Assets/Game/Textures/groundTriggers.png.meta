@@ -3,7 +3,7 @@ guid: 4a4c247947884a24895a68b3a19f4aa4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -104,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UpgradeMenuIcons_0
+      name: groundTriggers_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1727
-        width: 260
-        height: 260
+        x: 1426
+        y: 1797
+        width: 279
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8fc177208968247860afd6735e9987
-      internalID: -1336625088
+      spriteID: 70ab166c6cb676b48abadc3be67807cc
+      internalID: 211308275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpgradeMenuIcons_1
+      name: groundTriggers_1
       rect:
         serializedVersion: 2
-        x: 334
-        y: 1734
-        width: 246
-        height: 246
+        x: 1734
+        y: 1797
+        width: 279
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,50 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a047a562a5e918f45b24d0281d180a71
-      internalID: -55014984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpgradeMenuIcons_2
-      rect:
-        serializedVersion: 2
-        x: 903
-        y: 1487
-        width: 513
-        height: 513
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 224f50ea6f7956f499e0418eaad74eb8
-      internalID: -1507076949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpgradeMenuIcons_3
-      rect:
-        serializedVersion: 2
-        x: 1472
-        y: 1278
-        width: 513
-        height: 715
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0548d210bcddf8a44aac96eeb6b1195d
-      internalID: 1616863764
+      spriteID: f86beeb1d8b608845a69fb6c205693f5
+      internalID: 865223605
       vertices: []
       indices: 
       edges: []
@@ -198,10 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UpgradeMenuIcons_3: 1616863764
-      UpgradeMenuIcons_0: -1336625088
-      UpgradeMenuIcons_1: -55014984
-      UpgradeMenuIcons_2: -1507076949
+      groundTriggers_1: 865223605
+      groundTriggers_0: 211308275
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

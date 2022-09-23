@@ -2675,19 +2675,19 @@ MonoBehaviour:
   creatablePoolItems:
   - Prefab: {fileID: 4259622609450772886, guid: 08bccc0e59151cd428969b7ff69395bf,
       type: 3}
-    SpawnCount: 10
+    SpawnCount: 20
     Parent: {fileID: 8437136486970638677}
   - Prefab: {fileID: 4343053233854730211, guid: 5c3bb33dd96dd5c4ab8abffddba5bbee,
       type: 3}
-    SpawnCount: 10
+    SpawnCount: 20
     Parent: {fileID: 8437136485513214244}
   - Prefab: {fileID: 4343053233854730211, guid: 4954e3374485e8c4f9f39cfc7dcfd6c5,
       type: 3}
-    SpawnCount: 10
+    SpawnCount: 20
     Parent: {fileID: 8437136486758116070}
   - Prefab: {fileID: 3295205710977420024, guid: fe83d7b5d3ce4b045b3470c7385b59d7,
       type: 3}
-    SpawnCount: 10
+    SpawnCount: 30
     Parent: {fileID: 2088105687}
 --- !u!114 &1377589993
 MonoBehaviour:

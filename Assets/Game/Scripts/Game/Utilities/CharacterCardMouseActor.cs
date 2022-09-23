@@ -5,10 +5,11 @@ using UnityEngine.UI;
 using Characters.Tower.Ui;
 using Game.Event;
 using Game.Interface;
+using Game.Helper;
 
 public class CharacterCardMouseActor : MonoBehaviour
 {
-    [Header("References")] 
+    [Header("References")]
     public GraphicRaycaster Raycaster;
     public EventSystem EventSystem;
 
@@ -28,6 +29,7 @@ public class CharacterCardMouseActor : MonoBehaviour
     private bool IsMouseDown => Input.GetMouseButton(0);
     private bool IsMouseUp => Input.GetMouseButtonUp(0);
 
+    private float cardMovementSpeed = 30f;
     #endregion
 
     #region Event
@@ -84,7 +86,9 @@ public class CharacterCardMouseActor : MonoBehaviour
         FindMergeSlot();
 
         towerSlotCardActor.UpdateSiblingIndex();
-        towerSlotCardActor.SetPosition(pointerEventData.position);
+
+        Vector2 lerpPos = Vector3.Slerp(towerSlotCardActor.GetPosition(), pointerEventData.position, Time.deltaTime * cardMovementSpeed);
+        towerSlotCardActor.SetPosition(lerpPos);
     }
 
     private void HandleMouseUp()
@@ -114,7 +118,7 @@ public class CharacterCardMouseActor : MonoBehaviour
             {
                 if (result.gameObject.CompareTag("MergeSlot"))
                 {
-                    newTowerSlotActor = result.gameObject.GetComponentInParent<TowerSlotActor>();
+                    newTowerSlotActor = result.gameObject.GetComponent<ParentFindHelper>().GetParent<TowerSlotActor>();
                     break;
                 }
                 else

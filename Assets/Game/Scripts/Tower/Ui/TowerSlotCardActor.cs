@@ -64,5 +64,10 @@ namespace Characters.Tower.Ui
         {
             rectTransform.position = position;
         }
+
+        public Vector2 GetPosition()
+        {
+            return rectTransform.position;
+        }
     }
 }
